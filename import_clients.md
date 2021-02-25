@@ -1,4 +1,4 @@
-** # Importació dels clients a una base de dades mitjançant Python**
+# **Importació dels clients a una base de dades mitjançant Python**
 
 ```py
 
@@ -40,7 +40,7 @@ with open(r"C:\Users\ernen\Documents\M-02 Base Dades\AC1_UF2\BBDD\dades_clients-
 
 
 
-#### Executem l'INSERT
+# Executem l'INSERT
 
 cnx.commit()
 
