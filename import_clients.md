@@ -51,8 +51,6 @@ with open(r"C:\Users\ernen\Documents\M-02 Base Dades\AC1_UF2\BBDD\dades_clients-
 
 
 
-# Executem l'INSERT
-
 cnx.commit()
 
 cursor.close()
