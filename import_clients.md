@@ -1,5 +1,7 @@
 ** # Importació dels clients a una base de dades mitjançant Python**
 
+```py
+
 import mysql.connector
 
 import csv
@@ -45,3 +47,5 @@ cnx.commit()
 cursor.close()
 
 cnx.close()
+
+```
