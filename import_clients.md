@@ -3,9 +3,9 @@
 En aquest exercici ens hem comunicat amb la base de dades mitjançant el llenguatge de Python
 - Primerament fem la connexió a la base de dades.
 
-- Obrim l'arxiu on estan les dades mitjançant el seu Path.
+- Obrim l'arxiu on estan les dades mitjançant el seu **PATH**.
 
-- Com aquest fitxer té la extensió `.csv` i les dades estan separades per el `';'`, l'utilitzem com a delimitador.
+- Com aquest fitxer té l'extensió `.csv` i les dades estan separades pel `';'`, l'utilitzem com a delimitador.
 
 - Fem un bucle 'For' per afegir totes les dades a la base de dades.
 
