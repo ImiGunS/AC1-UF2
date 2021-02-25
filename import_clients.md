@@ -1,6 +1,6 @@
 # **Importació dels clients a una base de dades mitjançant Python**
 
-[En aquest exercici ens hem comunicat amb la base de dades mitjançant el llenguatge de Python
+En aquest exercici ens hem comunicat amb la base de dades mitjançant el llenguatge de Python
 - Primerament fem la connexió a la base de dades.
 
 - Obrim l'arxiu on estan les dades mitjançant el seu Path.
@@ -9,7 +9,7 @@
 
 - Fem un bucle 'For' per afegir totes les dades a la base de dades.
 
-- Finalment, una vegada finalitzat l'INSERT, fem un COMMIT i acabem la connexió.]
+- Finalment, una vegada finalitzat l'INSERT, fem un COMMIT i acabem la connexió.
 
 ```py
 
