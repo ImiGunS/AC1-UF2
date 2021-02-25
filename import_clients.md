@@ -5,7 +5,7 @@ En aquest exercici ens hem comunicat amb la base de dades mitjançant el llengua
 
 - Obrim l'arxiu on estan les dades mitjançant el seu Path.
 
-- Com aquest fitxer té la extensió .csv i les dades estan separades per el ';', l'utilitzem com a delimitador.
+- Com aquest fitxer té la extensió `.csv` i les dades estan separades per el `';'`, l'utilitzem com a delimitador.
 
 - Fem un bucle 'For' per afegir totes les dades a la base de dades.
 
