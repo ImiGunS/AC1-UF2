@@ -38,13 +38,13 @@ with open(r"C:\Users\ernen\Documents\M-02 Base Dades\AC1_UF2\BBDD\dades_clients-
         else:
             print(f"\t El nostre client{row[0]} amb nom {row[1]} i cognom {row[2]}, amb sexe {row[3]} amb data naixament {row[4]} i el seu/a pais d'origen és {row[5]} .")
             print(f'Processed {line_count} lines.')
-            client_id=(row[0])
-            nom=row[1]
-            cognom1=row[2]
-            sexe=row[3]
+            client_id = (row[0])
+            nom = row[1]
+            cognom1 = row[2]
+            sexe = row[3]
             datasplit = row[4].split("/")
-            data_naixement=date(int(datasplit[2]), int(datasplit[1]), int(datasplit[0]))
-            pais_origen_id=row[5]
+            data_naixement = date(int(datasplit[2]), int(datasplit[1]), int(datasplit[0]))
+            pais_origen_id = row[5]
             cursor.execute('''INSERT INTO clients(client_id,nom,cognom1,sexe,data_naixement,pais_origen_id)
                 VALUES (%s,%s,%s,%s,%s,%s)''',(client_id,nom,cognom1,sexe,data_naixement,pais_origen_id))
             line_count += 1
