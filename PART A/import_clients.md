@@ -2,7 +2,7 @@
 
 ##### En aquest exercici ens hem comunicat amb la base de dades mitjançant el llenguatge de Python
 
-[Fitxer del codi](https://github.com/ImiGunS/AC1-UF2/blob/main/PART%20A/import_clients.py)
+[Fitxer del codi de Python](https://github.com/ImiGunS/AC1-UF2/blob/main/PART%20A/import_clients.py)
 
 - Primerament importem les llibreries necessàries i fem la connexió a la base de dades.
   ```py
