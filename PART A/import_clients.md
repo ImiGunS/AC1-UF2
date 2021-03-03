@@ -2,7 +2,7 @@
 
 ##### En aquest exercici ens hem comunicat amb la base de dades mitjançant el llenguatge de Python
 
-[Fitxer del codi](PART A/import_clients.py)
+[Fitxer del codi](PART%20A/import_clients.py)
 
 - Primerament importem les llibreries necessàries i fem la connexió a la base de dades.
   ```py
