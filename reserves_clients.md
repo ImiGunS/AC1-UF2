@@ -3,8 +3,9 @@
 ##### En aquest exercici ens hem comunicat amb la base de dades mitjançant el llenguatge de Python
 
 - Primerament fem la connexió a la base de dades.
-
-- Finalment, una vegada finalitzat el`UPDATE`, fem un `COMMIT` i acabem la connexió.
+- Declarem les variables dels mínims i màxims de clients i reserves.
+- Fem un bucle 'For' per afegir totes les dades a la base de dades mitjançant la funció `RANGE()` i `RANDOM.RANDINT()`.
+- Finalment, una vegada finalitzat l'`UPDATE`, fem un `COMMIT` i acabem la connexió.
 
 
 ```py
