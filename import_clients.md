@@ -9,7 +9,7 @@
 
 - Fem un bucle 'For' per afegir totes les dades a la base de dades.
 
-- Finalment, una vegada finalitzat l'INSERT, fem un COMMIT i acabem la connexió.
+- Finalment, una vegada finalitzat l'`INSERT`, fem un `COMMIT` i acabem la connexió.
 
 ```py
 
