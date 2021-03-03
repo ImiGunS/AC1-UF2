@@ -36,7 +36,8 @@ with open(r"C:\Users\ernen\Documents\M-02 Base Dades\AC1_UF2\BBDD\dades_clients-
             line_count += 1
             
         else:
-            print(f"\t El nostre client{row[0]} amb nom {row[1]} i cognom {row[2]}, amb sexe {row[3]} amb data naixament {row[4]} i el seu/a pais d'origen és {row[5]} .")
+            print(f"\t El nostre client{row[0]} amb nom {row[1]} i cognom {row[2]}, amb sexe {row[3]} amb data naixament {row[4]} 
+            i el seu/a pais d'origen és {row[5]} .")
             print(f'Processed {line_count} lines.')
             client_id = (row[0])
             nom = row[1]
