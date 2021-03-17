@@ -2,6 +2,8 @@
 
 ##### En aquest exercici ens hem comunicat amb la base de dades mitjançant el llenguatge de Python
 
+[Fitxer del codi de Python](./relacio_clients.py)
+
 - Primerament importem les llibreries necessàries i fem la connexió a la base de dades.
 ```py
 import mysql.connector
