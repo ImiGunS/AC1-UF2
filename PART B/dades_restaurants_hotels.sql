@@ -1,0 +1,13 @@
+INSERT INTO restaurants(restaurant_id,nom,descripcio,n_michelin,puntuacio,adreca,poblacio,provincia,web,geolocalitzacio)
+	VALUES	('1','La Caleta Restaurant Tarragona','Romàntica casa destètica vintage i fresca terrassa on elaboren cuina de mercat mediterrània i moderna.','0','4.0','Passeig Marítim Rafael Casanova, 24, 43007','76','1','https://www.restaurantlacaleta.es/',ST_GeomFromText('POINT(41.1113115 1.2536195)')),
+			('2','Restaurant El Tiberi - Tarragona','Bufet de cuina catalana casolana en restaurant decorat com un pati destil català amb ambient familiar.','0','4.5','Carrer Martí dArdenya, 5, 43001','76','1','https://www.eltiberi.com/ca/',ST_GeomFromText('POINT(41.1137432 1.2518212)')),
+			('3','El Llagut','Arrossos i plats mediterranis darrels catalanes en una taverna marinera que treballa amb productes locals','0','4.0','Carrer de Natzaret, 0, 43003','76','1','https://elllagut.com',ST_GeomFromText('POINT(41.116839 1.2577897)')),
+            ('4','Vadegust','Arrosseria i cuina catalana amb peixos i carns en elegant saló decorat amb tocs florals','0','4.0','Carrer de Sevilla, 5, 43001','76','1','https://www.vadegust.com',ST_GeomFromText('POINT(41.11388729999999 1.246451900000011)')),
+            ('5','Burger Boom','Hamburguesería','0','4.5','Plaça den Rovellat, 13, 43003','76','1','https://www.burgerboom.es/?l=es',ST_GeomFromText('POINT(41.1173444 1.2594553)'));
+            
+INSERT INTO hotels(hotel_id,nom,nestrelles,adreca,telefon,provincia,geolocalitzacio,descripcio,web)
+	VALUES	('340','Hotel Astari','4','Via Augusta, 95, 43003','977236900','1',ST_GeomFromText('POINT(41.1113115 1.2536195)'),'Molt cèntric amb molt bones vistes','https://www.hotelastari.com/'),
+			('341','Hotel Monument Mas Passamaner','5','Camí de la Serra, 52, 43470 La Selva del Camp, Tarragona','977766333','1',ST_GeomFromText('POINT(41.18380355834961 1.1388505697250366)'),'Hotel situat a 50m de la platja','https://www.maspassamaner.com/'),
+			('342','Hotel Festival Village','3','Ctra. de la Costa, 61, 43840 Salou, Tarragona','977373056','1',ST_GeomFromText('POINT(41.0613574 1.163258)'),'','https://www.hfestivalvillage.net/'),
+            ('343','Hotel SB Ciutat de Tarragona','4','Plaça de la Imperial Tàrraco, 5, 43005 Tarragona','977250999','1',ST_GeomFromText('POINT(41.118682861328125 1.245669960975647)'),'','https://www.hotelciutatdetarragona.com/'),
+            ('344','Hotel Catalunya Express','2','Carrer del General Contreras, 16, 43004 Tarragona','977219119','1',ST_GeomFromText('POINT(41.111793518066406 1.2517904043197632)'),'Acollidor i tranquil amb poques habitacions','https://hcatalunyaexpress.com/1/');
